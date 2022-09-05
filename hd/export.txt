@@ -1,0 +1,1 @@
+﻿ffmpeg -f image2 -r 30 -i %d.png -vcodec h264 -crf 0 -y test.mp4
